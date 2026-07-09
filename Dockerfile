@@ -1,4 +1,4 @@
-FROM registry.access.redhat.com/ubi10/go-toolset:1.26.4-1783456022 AS builder
+FROM registry.access.redhat.com/ubi10/go-toolset:1783325892 AS builder
 
 RUN CGO_ENABLED=0 go install github.com/GoogleCloudPlatform/grpc-gcp-tools/dp_check@latest
 
