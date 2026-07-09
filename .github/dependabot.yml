@@ -4,14 +4,10 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-    labels:
-      - "area/dependency"
   - package-ecosystem: "github-actions"
     directory: "/"
     schedule:
       interval: "daily"
-    labels:
-      - "area/dependency"
     groups:
       docker-actions:
         patterns:
